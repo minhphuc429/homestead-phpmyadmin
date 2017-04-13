@@ -5,15 +5,20 @@ on a Laravel Homestead box.
 
 ## Usage
 
-1. SSH into your Homestead box `homestead ssh` or `vagrant ssh`
+1. Open the `Homestead.yaml` file on your main machine and add
+    ```
+    sites:
+        - map: phpmyadmin.app
+          to: /home/vagrant/Code/get-link/public
+    ```
 
-2. `cd` to your code/projects directory (by default `~/Code`)
+2. SSH into your Homestead box `vagrant ssh`
 
-3. `$ curl -sS https://raw.githubusercontent.com/grrnikos/pma/master/pma.sh | sh`
+3. `cd` to your code/projects directory (by default `~/Code`)
+   
+4. `sudo curl -sS https://raw.githubusercontent.com/grrnikos/pma/master/pma.sh | sh`
 
-4. Open the `/etc/hosts` file on your main machine and add `127.0.0.1  phpmyadmin.app`
-
-5. Go to [http://phpmyadmin.app:8000](http://phpmyadmin.app:8000). Default credentials are username `homestead` and password `secret`
+5. Go to [http://phpmyadmin.app](http://phpmyadmin.app). Default credentials are username `homestead` and password `secret`
 
 ## License
 
