@@ -9,7 +9,7 @@ on a Laravel Homestead box.
     ```
     sites:
         - map: phpmyadmin.app
-          to: /home/vagrant/Code/get-link/public
+          to: /home/vagrant/Code/phpmyadmin
     ```
 
 2. SSH into your Homestead box `vagrant ssh`
