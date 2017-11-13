@@ -9,14 +9,14 @@ on a Laravel Homestead box.
     ```
     sites:
         - map: phpmyadmin.app
-          to: /home/vagrant/Code/phpmyadmin
+          to: /home/vagrant/code/phpmyadmin
     ```
 
 2. SSH into your Homestead box `vagrant ssh`
 
-3. `cd` to your code/projects directory (by default `~/Code`)
+3. `cd` to your code/projects directory (by default `~/code`)
    
-4. `sudo curl -sS https://raw.githubusercontent.com/grrnikos/pma/master/pma.sh | sh`
+4. `sudo curl -sS https://raw.githubusercontent.com/minhphuc429/homestead-phpmyadmin/master/phpmyadmin.sh | sh`
 
 5. Go to [http://phpmyadmin.app](http://phpmyadmin.app). Default credentials are username `homestead` and password `secret`
 
