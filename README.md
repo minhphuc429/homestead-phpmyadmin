@@ -8,7 +8,7 @@ on a Laravel Homestead box.
 1. Open the `Homestead.yaml` file on your main machine and add
     ```
     sites:
-        - map: phpmyadmin.app
+        - map: phpmyadmin.test
           to: /home/vagrant/code/phpmyadmin
     ```
 
@@ -18,7 +18,7 @@ on a Laravel Homestead box.
    
 4. `sudo curl -sS https://raw.githubusercontent.com/minhphuc429/homestead-phpmyadmin/master/phpmyadmin.sh | sh`
 
-5. Go to [http://phpmyadmin.app](http://phpmyadmin.app). Default credentials are username `homestead` and password `secret`
+5. Go to [http://phpmyadmin.test](http://phpmyadmin.test). Default credentials are username `homestead` and password `secret`
 
 ## License
 
