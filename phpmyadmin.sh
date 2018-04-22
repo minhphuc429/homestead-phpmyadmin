@@ -1,7 +1,7 @@
 #!/bin/bash
 
-echo 'Downloading phpMyAdmin 4.8.0'
-curl -#L https://files.phpmyadmin.net/phpMyAdmin/4.8.0/phpMyAdmin-4.8.0-english.tar.gz -o phpmyadmin.tar.gz
+echo 'Downloading phpMyAdmin 4.8.0.1'
+curl -#L https://files.phpmyadmin.net/phpMyAdmin/4.8.0.1/phpMyAdmin-4.8.0.1-english.tar.gz -o phpmyadmin.tar.gz
 
 mkdir phpmyadmin && tar xf phpmyadmin.tar.gz -C phpmyadmin --strip-components 1
 
