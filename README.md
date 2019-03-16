@@ -16,7 +16,7 @@ on a Laravel Homestead box.
 
 3. `cd` to your code/projects directory (by default `~/code`)
    
-4. `sudo curl -sS https://raw.githubusercontent.com/minhphuc429/homestead-phpmyadmin/master/phpmyadmin.sh | sh`
+4. `sudo curl -sS https://raw.githubusercontent.com/minhphuc429/hpma/master/phpmyadmin.sh | sh`
 
 5. Go to [http://phpmyadmin.test](http://phpmyadmin.test). Default credentials are username `homestead` and password `secret`
 
